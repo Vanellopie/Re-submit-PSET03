@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/anime-filtered.csv")
+    df = pd.read_csv("anime-filtered.csv")
     return df
 
 anime_df = load_data()
